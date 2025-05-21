@@ -1,0 +1,32 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Build artifacts (from PyInstaller)
+build/
+dist/
+*.spec
+*.exe
+
+# VSCode / IDE settings
+.vscode/
+.idea/
+*.swp
+
+# Environment/config files
+.env
+*.env
+*.log
+*.md.json
+*.db
+*.sqlite
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Optional - sample or temp reports
+numa_diagnostics_*.md
+numa_diagnostics_*.json
